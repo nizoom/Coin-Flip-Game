@@ -1,0 +1,50 @@
+<!doctype>
+<html lang = 'en'>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = 'stylesheet' href = 'style.css'>
+  <title> Coin Toss Game </title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id = 'wrapper'>
+  <div id = 'title'>
+    <h1> Coin Flip Game! </h1>
+    <h2> First player to 5 points wins </h2>
+  </div>
+
+<div>
+      <h1 class = "selection_display" id = 'display_player_selection'> Player 1 Selected: </h1>
+      <h1 class = "selection_display" id = 'display_comp_selection'> Computer Selected: </h1>
+</div>
+
+    <br>
+    <br>
+
+    <img src = 'images/headcrop.png' alt = 'heads' width = '200' height = '200'
+    class = "photos" id = "headpic">
+    <img src = 'images/tailcrop.png' alt = 'tails' width = '200' height = '200'
+    class = "photos" id = "tailpic">
+    <br>
+    <br>
+    <h1 id = "winner"> </h1>
+    <h2 id = 'tie'> </h2>
+<div id = 'score'>
+  <h1 id = 'user_score'> Player One Score: 0 </h1>
+  <h1 id = 'comp_score'> Computer Score: 0 </h1>
+</div>
+<div id = 'selection'>
+  <h2 id = 'selectionP'> Make a selection </h2>
+    <button type = 'button' class = 'buttons' id = 'headsbtn'> Heads </button>
+    <button type = 'button' class = 'buttons' id = 'tailsbtn'> Tails </button>
+  </div>
+  <div>
+
+  </div>
+</div>
+
+<script src = 'app.js'> </script>
+</body>
+</html>

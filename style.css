@@ -1,0 +1,54 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  background-image: url("images/coinbg.jpg");
+  color: white;
+
+}
+#title{
+  text-align: center;
+}
+
+.selection_display{
+  margin: 15px;
+  text-align: center;
+  display: inline;
+}
+
+div{
+  text-align: center;
+}
+
+#selection button{
+  font-size: 30px;
+  margin: 15px;
+}
+
+#headpic{
+  z-index: 0;
+  position: absolute;
+  margin-right: -190px;
+}
+#tailpic{
+  z-index: 1;
+}
+
+
+#winner{
+  text-align: center;
+  color: purple;
+  font-size: 50px;
+
+}
+
+#tie{
+  text-align: center;
+  color: #ff0066;
+}
+
+.clearCoin{
+  visibility: hidden;
+}
+
+.showCoin{
+  visibility: visible;
+}
